@@ -1,7 +1,4 @@
 <?php
-$name = 'Bouchard';
-$firstname = 'Gérard';
-$age = 45;
 function hello($name, $firstname, $age){
   return 'Bonjour ' . $firstname . ' ' . $name . ', tu as ' . $age . ' ans';
 }
@@ -13,6 +10,6 @@ function hello($name, $firstname, $age){
     <title>PHP partie4 exo4</title>
   </head>
   <body>
-    <p><?php echo hello($name, $firstname, $age); ?></p>
+    <p><?php echo hello('Bouchard', 'Gérard', '47'); ?></p>
   </body>
 </html>
